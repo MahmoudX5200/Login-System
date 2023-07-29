@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign up</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <meta name="description" content="This Is Description For My First Page"/>  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="css/index_style.css">
+  </head>
+<body class=" bg-22333c ">
+
+  <span class="d-none" id="username"></span>
+  <div class="container my-5 text-center ">
+      <div class="group m-auto w-75 p-5">
+          <h1>Smart Login System</h1>
+
+          <input id="signinEmail" class="form-control w-75 m-auto my-3 text-center" placeholder="Enter your email" type="text">
+          <input id="signinPassword" class="form-control w-75 m-auto my-3 text-center" placeholder="Enter your password" type="password">
+          <p id="incorrect"></p>
+
+          <button onclick="login()" class="btn btn-outline-info w-100 my-3">Login</button>
+          <p class="text-white">Don’t have an account? <a class=" sign text-white" href="index.html">Sign Up</a></p>
+
+      </div>
+  </div>
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script> 
+<script src="js/index.js"></script>
+</body>
+</html>
